@@ -6,8 +6,13 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/fall-zhang/eslint-plugin-new-standard",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/fall-zhang/eslint-plugin-new-standard"
+  },
+  "keywords": ["eslint","eslint-config"],
+  "author": "fall-zhang",
   "license": "AGPL-3.0-only",
   "packageManager": "pnpm@10.15.1",
   "dependencies": {
