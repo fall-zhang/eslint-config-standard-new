@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "The replacement of eslint-plugin-standard. Newer And Compatible Standard JavaScript Lint Rules.",
   "main": "config.js",
+  "type": "module",
   "scripts": {
     "lint": "eslint ."
   },
@@ -17,6 +18,10 @@
     "eslint-standard-config"
   ],
   "author": "fall-zhang",
+  "engines": {
+    "node": ">= 20.0.0",
+    "npm": ">= 8.0.0"
+  },
   "license": "AGPL-3.0-only",
   "packageManager": "pnpm@10.15.1",
   "dependencies": {
