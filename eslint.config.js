@@ -1,6 +1,5 @@
 import standard from './config.js'
 import jslint from '@eslint/js'
-// import tailwind from 'eslint-plugin-tailwindcss'
 import tslint from 'typescript-eslint'
 import { defineConfig } from 'eslint/config'
 
