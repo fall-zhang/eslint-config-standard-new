@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-new-standard",
+  "name": "eslint-config-standard-new",
   "version": "0.2.0",
   "description": "The replacement of eslint-plugin-standard. Newer And Compatible Standard JavaScript Lint Rules.",
   "main": "config.js",
