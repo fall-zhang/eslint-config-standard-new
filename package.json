@@ -5,7 +5,8 @@
   "main": "config.js",
   "type": "module",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "tsc": "tsc"
   },
   "homepage": "https://github.com/fall-zhang/eslint-plugin-new-standard",
   "repository": {
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.34.0",
+    "typescript": "^5.0.0",
     "typescript-eslint": "^8.41.0"
   }
 }
