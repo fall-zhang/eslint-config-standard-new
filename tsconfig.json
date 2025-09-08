@@ -1,0 +1,33 @@
+{
+  // Change this to match your project
+  "include": [
+    "config.js",
+    "config.d.ts",
+  ],
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": "./",
+    "target": "es2016",
+    "module": "es2020",
+    // This compiler run should only output d.ts files
+    // Types should go into this directory.
+    // Removing this would place the .d.ts files
+    // next to the .js files
+    "moduleResolution": "node",
+    "allowJs": true,
+    "jsx": "preserve",
+    "jsxImportSource": "vue",
+    // Generate d.ts files
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "declarationMap": false,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+    "strict": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "outDir": "./types"
+  }
+}

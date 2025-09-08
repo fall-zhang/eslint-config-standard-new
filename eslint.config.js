@@ -13,7 +13,6 @@ const tsLintConfig = {
     '@typescript-eslint/no-unused-expressions': 'off'
   }
 }
-
 export default defineConfig([
   // global ignores
   {
