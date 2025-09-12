@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "The replacement of eslint-plugin-standard. Newer And Compatible Standard JavaScript Lint Rules.",
   "main": "config.js",
+  "types": "config.d.ts",
   "type": "module",
   "scripts": {
     "lint": "eslint .",
